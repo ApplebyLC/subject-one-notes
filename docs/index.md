@@ -9,7 +9,7 @@ subject: 科目一
 
 ## 学习路径
 
-全书分为四章，建议按顺序阅读。
+全书分为四部分，建议按顺序阅读。
 
 <div class="path-flow">
   <div class="flow-node"><strong>法规基础 01–04</strong><span>驾驶证·车辆登记·记分·处罚</span></div>

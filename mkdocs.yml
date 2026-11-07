@@ -90,9 +90,9 @@ extra_javascript:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ApplebyLC
+      link: https://github.com/ApplebyLC/subject-one-notes
   generator: false
 
 copyright: |
   内容仅供学习参考，具体以当地最新法规与驾考要求为准。<br>
-  采用 CC BY-NC 4.0 协议共享。
+  采用 <a href="https://github.com/ApplebyLC/subject-one-notes/blob/main/LICENSE">CC BY-NC 4.0</a> 协议共享。
