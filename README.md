@@ -84,13 +84,7 @@ mkdocs build
 
 ## 在 Obsidian 中使用
 
-本仓库的笔记采用标准 Markdown，可直接克隆到本地作为 Obsidian 笔记阅读。
-
-说明：
-
-- 网页版使用 MkDocs Material 主题；Obsidian 会使用自身主题，网页的配色、导航和搜索不会带过去。
-- 自测题答案在网页和 Obsidian 中都可以点击展开。
-- 如以网页版为主，直接访问上方在线地址即可。
+本仓库的笔记以标准 Markdown 编写，格式与 Obsidian 兼容。将仓库克隆或下载到本地后，`docs/` 目录可直接作为 Obsidian 仓库打开。
 
 ---
 
