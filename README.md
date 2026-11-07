@@ -46,41 +46,6 @@
 
 ---
 
-## 文件结构
-
-```text
-subject-one-notes/
-├─ docs/                       # 笔记正文与图片
-│  ├─ index.md                 # 网站首页
-│  ├─ 01_…md ~ 09_…md          # 9 篇笔记
-│  ├─ 99_科目一自测题.md        # 57 道自测题
-│  ├─ assets/signs/            # 73 张交通标志图
-│  └─ stylesheets/             # 网页样式微调
-├─ mkdocs.yml                  # 网站名称、目录、主题、导航
-├─ .github/workflows/          # 网页自动发布
-├─ README.md                   # 笔记说明
-└─ LICENSE
-```
-
----
-
-## 本地运行
-
-```bash
-# 1. 安装依赖
-pip install mkdocs-material
-
-# 2. 本地预览
-mkdocs serve
-# 打开 http://127.0.0.1:8000
-
-# 3. 构建静态网页
-mkdocs build
-# 生成的静态文件在 site/ 目录
-```
-
----
-
 ## 在 Obsidian 中使用
 
 本仓库的笔记以标准 Markdown 编写，格式与 Obsidian 兼容。将仓库克隆或下载到本地后，`docs/` 目录可直接作为 Obsidian 仓库打开。
