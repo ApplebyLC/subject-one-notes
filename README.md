@@ -1,6 +1,6 @@
 # 科目一笔记
 
-> 面向科目一学习者的结构化学习笔记，按考试大纲梳理考点，另附易混辨析、速记口诀与自测题辅助掌握考试内容。
+> 面向科目一学习者的结构化学习笔记，按考试大纲梳理考点，另附易混辨析、速记口诀及自测题，辅助掌握考试内容。
 
 [![MkDocs Material](https://img.shields.io/badge/MkDocs-Material-blueviolet)](https://squidfunk.github.io/mkdocs-material/)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
