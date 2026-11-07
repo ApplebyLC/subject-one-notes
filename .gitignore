@@ -1,0 +1,17 @@
+# MkDocs 构建产物
+site/
+.cache/
+*.pyc
+__pycache__/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+sign-list.json
+sign-map.json
+_tables.json
+
+# 根目录推广素材与原图备份（docs/assets 不受影响）
+/assets/

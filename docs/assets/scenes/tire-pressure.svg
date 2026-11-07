@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 105">
+  <!-- 轮胎截面轮廓 -->
+  <path d="M25 78 L25 45 Q25 22 60 22 Q95 22 95 45 L95 78"
+        fill="none" stroke="#FFC107" stroke-width="9" stroke-linecap="round"/>
+  <!-- 底部胎纹 -->
+  <path d="M25 78 L95 78" stroke="#FFC107" stroke-width="9" stroke-linecap="round"/>
+  <path d="M33 87 L33 78 M47 87 L47 78 M61 87 L61 78 M75 87 L75 78 M89 87 L89 78"
+        stroke="#FFC107" stroke-width="4"/>
+  <!-- 感叹号 -->
+  <line x1="60" y1="36" x2="60" y2="57" stroke="#FFC107" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="60" cy="69" r="4.5" fill="#FFC107"/>
+</svg>

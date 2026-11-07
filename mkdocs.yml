@@ -1,0 +1,98 @@
+site_name: 科目一笔记
+site_description: 驾考科目一结构化学习笔记 · 法规 · 信号 · 通行 · 操作
+site_author: ApplebyLC
+site_url: https://ApplebyLC.github.io/subject-one-notes/
+
+theme:
+  name: material
+  language: zh
+  icon:
+    logo: material/car
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到亮色模式
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+nav:
+  - 开始: index.md
+  - 一、法规基础:
+      - 驾驶证申领·使用与审验: 01_驾驶证申领·使用与审验.md
+      - 车辆登记·检验·保险·事故: 02_车辆登记·检验·保险·事故.md
+      - 违法记分规则: 03_违法记分规则.md
+      - 违法处罚·强制措施与汽车常识: 04_违法处罚·强制措施与汽车常识.md
+  - 二、交通信号:
+      - 信号灯·警告禁令指示标志: 05_信号灯·警告禁令指示标志.md
+      - 指路标志·标线与交警手势: 06_指路标志·标线与交警手势.md
+  - 三、安全行车:
+      - 道路通行·装载·高速规定: 07_道路通行·装载·高速规定.md
+  - 四、操作基础:
+      - 操纵机构·开关与安全装置: 08_操纵机构·开关与安全装置.md
+      - 车辆检查·轮胎与油液: 09_车辆检查·轮胎与油液.md
+  - 自测题: 99_科目一自测题.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-diagram
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: false
+      toc_depth: 3
+
+hooks:
+  - hooks/rewrite_asset_paths.py
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/mermaid.min.js
+  - assets/javascripts/mermaid-init.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ApplebyLC
+  generator: false
+
+copyright: |
+  内容仅供学习参考，具体以当地最新法规与驾考要求为准。<br>
+  采用 CC BY-NC 4.0 协议共享。

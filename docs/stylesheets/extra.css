@@ -1,0 +1,88 @@
+/* ===== 左侧导航栏：浅灰背景，与正文、右侧目录区分 ===== */
+.md-sidebar--primary {
+  background-color: #f5f6f8;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--primary {
+  background-color: #23272d;
+}
+
+/* ===== 学习路径流程图 ===== */
+.path-flow {
+  text-align: center;
+  margin: 22px 0;
+}
+
+.flow-node {
+  display: inline-block;
+  min-width: 220px;
+  background: #eef1fb;
+  border: 2px solid #4f6bfa;
+  border-radius: 6px;
+  padding: 10px 24px;
+  text-align: center;
+}
+
+.flow-node strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1f2544;
+}
+
+.flow-node span {
+  display: block;
+  font-size: 12px;
+  color: #5a6285;
+  margin-top: 3px;
+  white-space: nowrap;
+}
+
+.flow-arrow {
+  color: #4f6bfa;
+  font-size: 18px;
+  line-height: 1;
+  margin: 3px 0;
+}
+
+/* ===== 表格第一列 =====
+   默认只加粗（适合编号、序号），统一不变色。
+   需要突出首列的表格，在表格前放 <div id="table-accent"></div>；
+   这样网页端可变色，Obsidian 端仍是普通 Markdown 表格。 */
+.md-typeset table td:first-child {
+  font-weight: 600;
+}
+
+#table-accent + .md-typeset__scrollwrap td:first-child,
+#table-accent + table td:first-child {
+  color: #3b4a99;
+}
+
+/* 暗色模式下提高对比度 */
+[data-md-color-scheme="slate"] #table-accent + .md-typeset__scrollwrap td:first-child,
+[data-md-color-scheme="slate"] #table-accent + table td:first-child {
+  color: #9fa8da;
+}
+
+/* ===== Mermaid 图居中（保留兼容） ===== */
+.mermaid-diagram {
+  text-align: center;
+}
+
+.mermaid-diagram svg {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== 右侧目录标题：改为「章节目录」 ===== */
+.md-nav--secondary > .md-nav__title {
+  font-size: 0; /* 隐藏默认「目录」文字 */
+}
+
+.md-nav--secondary > .md-nav__title::after {
+  content: "章节目录";
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
